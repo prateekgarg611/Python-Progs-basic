@@ -1,0 +1,12 @@
+print('Geek\'s for geeks')
+print("geek's for geek's")
+print("geek\"s for geek\"s")
+print("geek's for \\geeks")
+print(r"geeks\for\geeks")
+
+string1="{}{}{}".format(0,1,2)
+print(string1)
+string2="{1}{0}{2}".format(45,10,20)
+print(string2)
+string3="{f}{l}{g}".format(g="geeks",f="for",l="life")
+print(string3)
